@@ -1,0 +1,104 @@
+
+@font-face {
+    font-family: 'Sora';
+    src: url(./fuentes/Sora-Regular.ttf);
+}
+
+/* selector universal: reseteo básico y modelo de caja alternativo.*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* selectores de tipo */
+
+html {
+    font-family: 'Sora', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #3f4d48;
+    background-color: #f7f8f3;
+}
+
+a {
+    color: #3f4d48;
+}
+
+ul {
+    list-style: none;
+}
+
+/* slectores de clase */
+
+.encabezado-principal {
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;           
+    padding: 10px 30px;
+    background-color: #e4e9d8;
+}
+
+.encabezado-principal a img {
+    width: 150px;
+}
+
+.encabezado-principal nav ul {
+    display: flex; 
+}
+
+.encabezado-principal nav li {
+    margin-left: 20px;
+}
+
+.encabezado-principal nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contenido-principal {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 30px;
+}
+
+.contenido-principal h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.contenido-principal article {
+    margin-bottom: 40px;
+}
+
+.contenido-principal article img {
+    width: 300px;
+}
+
+.contenido-principal article a {
+    font-weight: bold;
+}
+
+.contenido-principal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-principal form input,
+.contenido-principal form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contenido-principal form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.pie-principal {
+    padding: 20px;
+    text-align: center;
+    background-color: #e4e9d8; 
+}
